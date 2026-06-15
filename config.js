@@ -64,14 +64,14 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'csTimer',
-			icon: 'box',
-			link: 'https://cstimer.net/',
+			name: 'Twitter',
+			icon: 'twitter',
+			link: 'https://x.com/',
 		},
 		{
 			id: '4',
 			name: 'Reddit',
-			icon: 'bookmark',
+			icon: 'message-square',
 			link: 'https://reddit.com/',
 		},
 		{
@@ -82,9 +82,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Competishun',
-			icon: 'book-open',
-			link: 'https://online.competishun.com',
+			name: 'Telegram',
+			icon: 'send',
+			link: 'https://web.telegram.org/',
 		},
 	],
 
@@ -134,46 +134,46 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'globe',
+			icon: 'cpu',
 			id: '1',
 			links: [
 				{
-					name: 'Duolingo',
-					link: 'https://www.duolingo.com/learn',
+					name: 'Xiaomi Usage',
+					link: 'https://platform.xiaomimimo.com/console/plan-manage',
 				},
 				{
-					name: 'Wolfram Alpha',
-					link: 'https://www.wolframalpha.com/',
+					name: 'DeepSeek Usage',
+					link: 'https://platform.deepseek.com/usage',
 				},
 				{
-					name: 'Desmos',
-					link: 'https://www.desmos.com/calculator',
+					name: 'OpenAI Usage',
+					link: 'https://platform.openai.com/usage',
 				},
 				{
-					name: 'Speedtest',
-					link: 'https://speedtest.net/',
+					name: 'Artificial Analysis',
+					link: 'https://artificialanalysis.ai/',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'shopping-bag',
 			id: '2',
 			links: [
 				{
-					name: 'Telegram',
-					link: 'https://webk.telegram.com/',
+					name: 'Amazon',
+					link: 'https://amazon.in/',
+				},
+				{
+					name: 'Flipkart',
+					link: 'https://flipkart.com/',
 				},
 				{
 					name: 'MonkeyType',
 					link: 'https://monkeytype.com/',
 				},
 				{
-					name: 'Amazon',
-					link: 'https://amazon.in/',
-				},
-				{
-					name: 'Quora',
-					link: 'https://quora.com',
+					name: 'GitHub',
+					link: 'https://github.com/',
 				},
 			],
 		},
