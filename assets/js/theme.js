@@ -10,15 +10,13 @@ const bodyBackground = document.getElementById('#body');
 const enableDark = () => {
 	document.body.classList.add('darktheme');
 	localStorage.setItem('darkTheme', 'enabled');
-	themeToggle.innerHTML = `<i id="themeButton__icon" icon-name="sun"></i>`;
-	lucide.createIcons({ nameAttr: 'icon-name' });
+	themeToggle.innerHTML = `<i id="themeIcon" class="ph ph-sun"></i>`;
 };
 
 const disableDark = () => {
 	document.body.classList.remove('darktheme');
 	localStorage.setItem('darkTheme', null);
-	themeToggle.innerHTML = `<i id="themeButton__icon" icon-name="moon"></i>`;
-	lucide.createIcons({ nameAttr: 'icon-name' });
+	themeToggle.innerHTML = `<i id="themeIcon" class="ph ph-moon"></i>`;
 };
 
 if (darkTheme === 'enabled') {
